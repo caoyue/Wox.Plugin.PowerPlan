@@ -1,0 +1,36 @@
+﻿# Visual Studio artifacts
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.vsp
+*.csproj.VisualState.xml
+*.Publish.xml
+
+# Weyland
+Aft.Hris.Web/build/
+
+# Vim
+*~
+
+# Resharper artifacts
+_ReSharper.*/
+
+# WebStorm artifacts
+.idea/
+
+#log
+[Ll]og/
+*.log
+
+# NuGet packages
+packages/
+
+# OS generated files
+Thumbs.db
+
+# project
+pub/
+
+# git
+*.orig

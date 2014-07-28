@@ -10,7 +10,7 @@ namespace Wox.Plugin.PowerPlan
         private static string _currentPath;
         public void Init(PluginInitContext context)
         {
-            _currentPath = context.CurrentPluginMetadata.PluginDirecotry;
+            _currentPath = context.CurrentPluginMetadata.PluginDirectory;
         }
 
         public List<Result> Query(Query query)

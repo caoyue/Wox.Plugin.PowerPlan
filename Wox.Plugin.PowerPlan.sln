@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Web
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wox.Plugin.PowerPlan", "Wox.Plugin.PowerPlan\Wox.Plugin.PowerPlan.csproj", "{605C8731-5A3C-451C-8BE8-200DDE6430E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wox.Plugin", "Wox.Plugin", "{03E52539-D226-4590-B943-46AE908E8608}"
+	ProjectSection(SolutionItems) = preProject
+		Wox.Plugin\README.md = Wox.Plugin\README.md
+		Wox.Plugin\Wox.Plugin.dll = Wox.Plugin\Wox.Plugin.dll
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
